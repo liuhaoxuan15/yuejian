@@ -1,0 +1,137 @@
+ required <!--包含头部文件-->
+{include file="public/header" /}
+<body>
+<div class="page-container">
+	<form action="{:url('game_add')}" enctype="multipart/form-data" method="post" class="form form-horizontal" id="form-article-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>比赛标题：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input required  type="text" class="input-text" value="" placeholder="" id="" name="match_name">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>比赛日期：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input required  type="date"  id="datemin" class="input-text Wdate" name="match_time">
+			</div>
+		</div>
+			<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>比赛地址</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input required  type="text"  id="datemin" class="input-text Wdate" name="match_address">
+			</div>
+		</div>
+			<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>联系方式</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input required  type="text"  id="datemin" class="input-text Wdate" name="match_phone">
+			</div>
+		</div>
+					<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>网站</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input  required type="text"  id="datemin" class="input-text Wdate" name="match_url">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">比赛简介</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="match_intro" cols="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="$.Huitextarealength(this,200)"></textarea>
+				
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">宣传图上传：</label>
+			<input  required type="file" name="match_pic" /> <br> 
+			
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				<button  class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 提交</button>
+				<!--<button onClick="article_save();" class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存草稿</button>-->
+				<button onClick="back();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+	</form>
+</div>
+<!--_footer 作为公共模版分离出去-->
+{include file="public/footer" /}
+<script type="text/javascript">
+
+/*用户-添加*/
+function member_add(title,url,w,h){
+    layer_show(title,url,w,h);
+}
+/*用户-查看*/
+function member_show(title,url,id,w,h){
+    layer_show(title,url,w,h);
+}
+/*用户-停用*/
+function member_stop(obj,id){
+    layer.confirm('确认要停用吗？',function(index){
+        $.ajax({
+            type: 'POST',
+            url: '',
+            dataType: 'json',
+            success: function(data){
+                $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="member_start(this,id)" href="javascript:;" title="启用"><i class="Hui-iconfont">&#xe6e1;</i></a>');
+                $(obj).parents("tr").find(".td-status").html('<span class="label label-defaunt radius">已停用</span>');
+                $(obj).remove();
+                layer.msg('已停用!',{icon: 5,time:1000});
+            },
+            error:function(data) {
+                console.log(data.msg);
+            },
+        });     
+    });
+}
+
+/*用户-启用*/
+function member_start(obj,id){
+    layer.confirm('确认要启用吗？',function(index){
+        $.ajax({
+            type: 'POST',
+            url: '',
+            dataType: 'json',
+            success: function(data){
+                $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="member_stop(this,id)" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a>');
+                $(obj).parents("tr").find(".td-status").html('<span class="label label-success radius">已启用</span>');
+                $(obj).remove();
+                layer.msg('已启用!',{icon: 6,time:1000});
+            },
+            error:function(data) {
+                console.log(data.msg);
+            },
+        });
+    });
+}
+/*用户-编辑*/
+function member_edit(title,url,id,w,h){
+    layer_show(title,url,w,h);
+}
+/*密码-修改*/
+function change_password(title,url,id,w,h){
+    layer_show(title,url,w,h);  
+}
+/*用户-删除*/
+function member_del(obj,id){
+    layer.confirm('确认要删除吗？',function(index){
+        $.ajax({
+            type: 'POST',
+            url: '',
+            dataType: 'json',
+            success: function(data){
+                $(obj).parents("tr").remove();
+                layer.msg('已删除!',{icon:1,time:1000});
+            },
+            error:function(data) {
+                console.log(data.msg);
+            },
+        });     
+    });
+}
+</script> 
+</body>
+</html>

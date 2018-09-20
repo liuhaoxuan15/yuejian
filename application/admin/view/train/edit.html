@@ -1,0 +1,83 @@
+
+<!--包含头部文件-->
+{include file="public/header" /}
+</head>
+<body>
+<article class="page-container">
+	<form action="{:url('train/update')}" enctype="multipart/form-data" method="post" class="form form-horizontal" id="form-member-add">
+	<input type="text" hidden="" name="train_id" value="{$trains.train_id}">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>训练名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$trains.train_name}" placeholder="" id="username" name="train_name">
+			</div>
+		</div>
+		
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>训练类型：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$trains.train_type}" placeholder="" id="type" name="train_type">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>简介：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="train_intro" cols="" rows="" class="textarea"  placeholder="输入培训简介" onKeyUp="$.Huitextarealength(this,100)">{$trains.train_intro}</textarea>
+				<p class="textarea-numberbar"><em class="textarea-length">0</em>/100</p>
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>上课须知：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="train_attention" cols="" rows="" class="textarea"  placeholder="输入上课须知" onKeyUp="$.Huitextarealength(this,100)">{$trains.train_attention}</textarea>
+				<p class="textarea-numberbar"><em class="textarea-length">0</em>/100</p>
+			</div>
+		</div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">图片：</label>
+    <div class="col-md-10 col-xs-10">
+        <span class="btn-upload form-group">
+  <input class="input-text upload-url radius" type="text" name="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary radius"><i class="iconfont">&#xf0020;</i> 浏览文件</a>
+  <input type="file" multiple name="train_pic" class="input-file">
+</span>
+      </div>
+        </div>
+
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>授课时间：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$trains.train_time}" placeholder="" id="date" name="train_time">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>授课地点：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$trains.train_address}" placeholder="" id="text" name="train_address">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>价格：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="{$trains.train_price}" placeholder="" id="text" name="train_price">
+			</div>
+		</div>		
+
+		
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+
+{include file="public/footer" }
+<script type="text/javascript">
+
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

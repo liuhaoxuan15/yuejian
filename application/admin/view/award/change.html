@@ -1,0 +1,95 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;
+</span> 奖品管理 <span class="c-gray en">&gt;</span> 已兑换列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+
+	<div class="mt-20">
+	<table class="table table-border table-bordered table-hover table-bg table-sort">
+		<thead>
+			<tr class="text-c">
+				<th width="25"><input type="checkbox" name="" value=""></th>
+				<th width="50">ID</th>
+				<th width="80">兑换奖品用户</th>
+				<th width="100">奖品名称</th>
+				<th width="150">图片</th>
+				<!-- <th width="150">简介</th> -->
+				<th width="100">运动值</th>						
+				<th width="100">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		{volist name="elist" id="vo"}
+			<tr class="text-c">
+				<td><input type="checkbox" value="1" name=""></td>
+				<td>{$i}</td>
+				<td>{$vo.user_name}</td>
+				<td>{$vo.award_name}</td>
+				<td><img src="__STATIC__/awards/{$vo.award_pic}" style="width:210px"></td>
+				
+				<!-- <td class="text-l">居家健身好选择</td> -->
+				<td >{$vo.award_value}</td>
+				
+				<td class="td-manage">
+					<a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a>
+				</td>
+			</tr>
+			{/volist}
+		</tbody>
+	</table>
+	</div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+{include file="public/footer" /}
+<script type="text/javascript">
+// $(function(){
+// 	$('.table-sort').dataTable({
+// 		"aaSorting": [[ 1, "desc" ]],//默认第几个排序
+// 		"bStateSave": true,//状态保存
+// 		"aoColumnDefs": [
+// 		  //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+// 		  {"orderable":false,"aTargets":[0,8,9]}// 制定列不参与排序
+// 		]
+// 	});
+	
+// });
+/*用户-添加*/
+function member_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*用户-查看*/
+function member_show(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+
+
+
+/*用户-编辑*/
+function member_edit(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+/*密码-修改*/
+function change_password(title,url,id,w,h){
+	layer_show(title,url,w,h);	
+}
+/*用户-删除*/
+function member_del(obj,id){
+	layer.confirm('确认要删除吗？',function(index){
+		$.ajax({
+			type: 'POST',
+			url: '',
+			dataType: 'json',
+			success: function(data){
+				$(obj).parents("tr").remove();
+				layer.msg('已删除!',{icon:1,time:1000});
+			},
+			error:function(data) {
+				console.log(data.msg);
+			},
+		});		
+	});
+}
+</script> 
+</body>
+</html>

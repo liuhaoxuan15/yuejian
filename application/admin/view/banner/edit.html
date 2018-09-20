@@ -1,0 +1,114 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+<body>
+<div class="page-container">
+	<form class="form form-horizontal" id="form-article-add">
+	<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">图片上传：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="uploader-list-container"> 
+					<div class="queueList">
+						<div id="dndArea" class="placeholder">
+							<div id="filePicker-2"></div>
+							<p>或将照片拖到这里，单次最多可选300张</p>
+						</div>
+					</div>
+					<div class="statusBar" style="display:none;">
+						<div class="progress"> <span class="text">0%</span> <span class="percentage"></span> </div>
+						<div class="info"></div>
+						<div class="btns">
+							<div id="filePicker2"></div>
+							<div class="uploadBtn">开始上传</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				<button onClick="article_save_submit();" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存并提交审核</button>
+				<button onClick="article_save();" class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存草稿</button>
+				<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+	</form>
+</div>
+<!--_footer 作为公共模版分离出去-->
+{include file="public/footer" /}
+<script type="text/javascript">
+
+/*用户-添加*/
+function member_add(title,url,w,h){
+    layer_show(title,url,w,h);
+}
+/*用户-查看*/
+function member_show(title,url,id,w,h){
+    layer_show(title,url,w,h);
+}
+/*用户-停用*/
+function member_stop(obj,id){
+    layer.confirm('确认要停用吗？',function(index){
+        $.ajax({
+            type: 'POST',
+            url: '',
+            dataType: 'json',
+            success: function(data){
+                $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="member_start(this,id)" href="javascript:;" title="启用"><i class="Hui-iconfont">&#xe6e1;</i></a>');
+                $(obj).parents("tr").find(".td-status").html('<span class="label label-defaunt radius">已停用</span>');
+                $(obj).remove();
+                layer.msg('已停用!',{icon: 5,time:1000});
+            },
+            error:function(data) {
+                console.log(data.msg);
+            },
+        });     
+    });
+}
+
+/*用户-启用*/
+function member_start(obj,id){
+    layer.confirm('确认要启用吗？',function(index){
+        $.ajax({
+            type: 'POST',
+            url: '',
+            dataType: 'json',
+            success: function(data){
+                $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="member_stop(this,id)" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a>');
+                $(obj).parents("tr").find(".td-status").html('<span class="label label-success radius">已启用</span>');
+                $(obj).remove();
+                layer.msg('已启用!',{icon: 6,time:1000});
+            },
+            error:function(data) {
+                console.log(data.msg);
+            },
+        });
+    });
+}
+/*用户-编辑*/
+function member_edit(title,url,id,w,h){
+    layer_show(title,url,w,h);
+}
+/*密码-修改*/
+function change_password(title,url,id,w,h){
+    layer_show(title,url,w,h);  
+}
+/*用户-删除*/
+function member_del(obj,id){
+    layer.confirm('确认要删除吗？',function(index){
+        $.ajax({
+            type: 'POST',
+            url: '',
+            dataType: 'json',
+            success: function(data){
+                $(obj).parents("tr").remove();
+                layer.msg('已删除!',{icon:1,time:1000});
+            },
+            error:function(data) {
+                console.log(data.msg);
+            },
+        });     
+    });
+}
+</script> 
+</body>
+</html>

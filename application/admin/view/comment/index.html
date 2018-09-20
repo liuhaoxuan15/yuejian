@@ -1,0 +1,62 @@
+﻿<!--包含头部文件-->
+{include file="public/header" /}
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 评论管理 <span class="c-gray en">&gt;</span> 评论列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">	
+	<div class="mt-20">
+		<table class="table table-border table-bordered table-hover table-bg table-sort">
+			<thead>
+				<tr class="text-c">
+					<th width="25"><input type="checkbox" name="" value=""></th>
+					<th width="50">ID</th>
+					<th width="50">用户名</th>
+					<th width="100">评论帖子</th>
+					<th width="150">评论内容</th>
+					<th width="90">评论时间</th>
+					<th width="100">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			{volist name="clist" id="vo"}
+				<tr class="text-c">
+					<td><input type="checkbox" value="1" name=""></td>
+					<td>{$i}</td>
+					<td><a href="{:url('detailed',['user_id'=>$vo.user_id])}">{$vo.user_name}</a></td>
+					<td><a href="{:url('postdetail',['post_id'=>$vo.post_id])}">{$vo.post_title}</a></td>
+			        <td>{$vo.comment_text}</td>
+			        <td>{$vo.comment_time}</td> 
+			        <td class="td-manage">
+
+			        <a title="删除" onclick="yuejian14_del('{:url('delete',['comment_id'=>$vo.comment_id])}','')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+		        </tr>
+			{/volist}	
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+{include file="public/footer" /}
+<script type="text/javascript">
+
+/*用户-添加*/
+function member_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*用户-查看*/
+function member_show(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+
+/*用户-编辑*/
+function member_edit(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+/*密码-修改*/
+function change_password(title,url,id,w,h){
+	layer_show(title,url,w,h);	
+}
+
+</script>
+</body>
+</html>

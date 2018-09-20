@@ -1,0 +1,58 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+<body>
+<div class="page-container">
+     <form action="{:url('course/edit_update')}" method="post" enctype="multipart/form-data" class="form form-horizontal" >
+   <input type="text" name="course_id" hidden value="{$courses.course_id}">
+   
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2">课程名：</label>
+      <div class="formControls col-xs-8 col-sm-9">
+        <input type="text" class="input-text" value="{$courses.course_name}" placeholder="" id="" name="course_name">
+      </div>
+    </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2">课程缩略图：</label>
+    <div class="col-md-10 col-xs-10">
+        <span class="btn-upload form-group">
+  <input class="input-text upload-url radius" type="text" name="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary radius"><i class="iconfont">&#xf0020;</i> 浏览文件</a>
+  <input type="file" multiple name="course_img" class="input-file">
+</span>
+      </div>
+        </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2">课程难度：</label>
+      <div class="formControls col-xs-8 col-sm-9">
+        <input type="text" class="input-text" value="{$courses.difficulty}" placeholder="" id="" name="difficulty">
+      </div>
+    </div>
+  
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2">价格：</label>
+      <div class="formControls col-xs-8 col-sm-9">
+        <input type="text" class="input-text" value="{$courses.course_price}" placeholder="" id="" name="course_price">
+      </div>
+    </div>         
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2">课程简介：</label>
+      <div class="formControls col-xs-8 col-sm-9">
+        <textarea name="course_des" cols="" rows="" class="textarea"   datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="$.Huitextarealength(this,200)">{$courses.course_des}</textarea>
+        <p class="textarea-numberbar"><em class="textarea-length">0</em>/200</p>
+      </div>
+    </div>
+
+        </div>
+      </div>
+    </div>
+           <div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+<button  type="submit" class="btn btn-primary radius" ><i class="Hui-iconfont">&#xe632;</i> 保存</button>
+            </div>
+        </div>
+  </form>
+</div>
+{include file="public:footer"/}
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+<body>
+<div class="page-container">
+	<form action="{:url('update')}" enctype="multipart/form-data" method="post">
+		<input type="hidden" value="{$master_video.coach_id}" name="coach_id">
+		<input type="hidden" value="{$master_video.mvid}" name="mvid">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">视频标题：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"   name="title" value="{$master_video.title}">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">视频链接：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  name="video" value="{$master_video.video}">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">缩略图：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="file" name="pic">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<input type="submit" name="提交">
+		</div>
+	</form>
+</div>

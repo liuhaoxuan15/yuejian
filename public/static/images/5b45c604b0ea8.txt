@@ -1,0 +1,871 @@
+[2018-01-30 19:30:35] pid = 20372, [CheckCmdLine] cmd = -addfirewall
+[2018-01-30 19:30:39] pid = 16080, [CheckCmdLine] cmd =
+[2018-01-30 19:30:40] pid = 16080, [CApplication] 开始初始化BaseServer...
+
+[2018-01-30 19:30:41] pid = 16080, [CApplication] 开始初始化WifiCore...
+
+[2018-01-30 19:30:41] pid = 16080, [CApplication] 开始初始化AppServer...
+
+[2018-01-30 19:30:41] pid = 16080, [CApplication] 开始初始化UIServer...
+
+[2018-01-30 19:30:41] pid = 16080, [CApplication] 开始初始化MongooseServer...
+
+[2018-01-30 19:30:41] pid = 16080, [CApplication] 开始初始化CommonWindow...
+
+[2018-01-30 19:30:41] pid = 16080, [CApplication] 初始化完毕...
+
+[2018-01-30 19:30:41] pid = 16080, [Do91AssistPop] 91assistpopsdk Already Load
+[2018-01-30 19:30:41] pid = 16080, Name:WiFiMaster; Description:WiFi共享大师; Protocol:100; action:1; vEnabled:FFFFFFFF; Profiles:7FFFFFFF
+[2018-01-30 19:30:41] pid = 16080, [CMainDuiWnd::PreInitWindow] User:WiFi共享大师-80  password:1234567890
+[2018-01-30 19:30:42] pid = 16080, [KeyStep] 显示主界面...
+[2018-01-30 19:30:48] pid = 16080, [KeyStep] 点击开启wifi...
+[2018-01-30 19:30:48] pid = 16080, [KeyStep] Wifi UI User: 
+00000000  57 69 46 69 E5 85 B1 E4 BA AB E5 A4 A7 E5 B8 88 WiFi共享大师-80
+00000010  2D 38 30                                        
+
+[2018-01-30 19:30:48] pid = 16080, [KeyStep] Wifi UI Password: 
+00000000  31 32 33 34 35 36 37 38 39 30                   1234567890
+
+[2018-01-30 19:30:48] pid = 16080, [KeyStep] Wifi UI User: 
+00000000  57 69 46 69 E5 85 B1 E4 BA AB E5 A4 A7 E5 B8 88 WiFi共享大师-80
+00000010  2D 38 30                                        
+
+[2018-01-30 19:30:48] pid = 16080, [KeyStep] Wifi UI Password: 
+00000000  31 32 33 34 35 36 37 38 39 30                   1234567890
+
+[2018-01-30 19:30:48] pid = 11672, [CheckCmdLine] cmd = -taskserver WifiTask 16080
+[2018-01-30 19:30:48] pid = 16080,  [ICSStart]==========================================2.4.1.6========
+[2018-01-30 19:30:48] pid = 16080, [Keystep] WifiStartCheck begin...
+[2018-01-30 19:30:48] pid = 16080, [WifiStartCheck] begin
+[2018-01-30 19:30:48] pid = 16080, [WifiStartCheck] osver = Microsoft Windows 10  (build 9200), 64-bit
+[2018-01-30 19:30:48] pid = 16080, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:30:48] pid = 16080, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:30:48] pid = 16080, [CSrvInfo] start service TapiSrv begin..
+[2018-01-30 19:30:48] pid = 16080, [CSrvInfo] start service end..
+[2018-01-30 19:30:48] pid = 16080, [CSrvInfo] start service Alg begin..
+[2018-01-30 19:30:48] pid = 16080, [CSrvInfo] start service end..
+[2018-01-30 19:30:48] pid = 16080, [CSrvInfo] start service Rasauto begin..
+[2018-01-30 19:30:48] pid = 16080, [CSrvInfo] start service end..
+[2018-01-30 19:30:48] pid = 16080, [CSrvInfo] start service BITS begin..
+[2018-01-30 19:30:48] pid = 16080, [CSrvInfo] start service end..
+[2018-01-30 19:30:48] pid = 16080, [CSrvInfo] start service Wwansvc begin..
+[2018-01-30 19:30:49] pid = 16080, [CSrvInfo] start service end..
+[2018-01-30 19:30:49] pid = 16080, [CSrvInfo] start service SharedAccess begin..
+[2018-01-30 19:30:49] pid = 16080, [CSrvInfo] start service end..
+[2018-01-30 19:30:49] pid = 16080, [Init_RaLink]LoadLibrary:RaAPAPI.dll
+[2018-01-30 19:30:49] pid = 11672, [CWlanAdapter] CheckWirelessNetcard begin
+[2018-01-30 19:30:49] pid = 11672, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:30:49] pid = 11672, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:30:49] pid = 11672, [CWlanAdapter] WlanEnumInterfaces begin
+[2018-01-30 19:30:49] pid = 11672, [CWlanAdapter] WlanEnumInterfaces end
+[2018-01-30 19:30:49] pid = 11672, [CWlanAdapter] NetCardNum=1
+[2018-01-30 19:30:49] pid = 11672, [CWlanAdapter] WlanQueryInterface begin
+[2018-01-30 19:30:49] pid = 11672, [CWlanAdapter] WlanQueryInterface end
+[2018-01-30 19:30:49] pid = 11672, [CWlanAdapter] isSupportHostedWlan NetCard=Qualcomm Atheros AR956x Wireless Network Adapter
+[2018-01-30 19:30:49] pid = 11672, [CWlanAdapter] CheckWirelessNetcard end
+[2018-01-30 19:30:49] pid = 16080, [KeyStep] (StartCheck)67端口没有被占用
+[2018-01-30 19:30:49] pid = 11672, DisableAllWirelessNetcardSleep Start
+[2018-01-30 19:30:49] pid = 11672, DisableAllWirelessNetcardSleep End)
+[2018-01-30 19:30:49] pid = 16080, [WifiStartCheck] end
+[2018-01-30 19:30:49] pid = 16080, [Keystep] WifiStartCheck end...
+[2018-01-30 19:30:49] pid = 16080, [Keystep] Start_Step1_0_Pre_CheckBlackProcess begin...
+[2018-01-30 19:30:49] pid = 16080, [Keystep] Start_Step1_0_Pre_CheckBlackProcess end...
+[2018-01-30 19:30:49] pid = 16080, [Keystep] CheckWirelessNetcard begin...
+[2018-01-30 19:30:49] pid = 16080, [Keystep] Get AutoConfig = 1, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:30:49] pid = 16080, [Keystep] Get background scan = 1, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:30:49] pid = 16080, [Keystep] Get operation mode = 0x00000004, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:30:49] pid = 16080, [Keystep] WlanGetAvailableNetworkList ret = 0x00000000, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:30:49] pid = 16080, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:30:49] pid = 16080, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:30:49] pid = 16080, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:30:49] pid = 16080, [Keystep] WlanGetAvailableNetworkList ret = 0x00000000, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:30:49] pid = 16080, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:30:49] pid = 16080, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:30:49] pid = 16080, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:30:49] pid = 16080, [Keystep] WlanGetAvailableNetworkList ret = 0x00000000, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:30:49] pid = 16080, [Keystep] Repaire_wifi_error begin
+[2018-01-30 19:30:50] pid = 16080, [Keystep] Repaire_wifi_error end
+[2018-01-30 19:30:50] pid = 16080, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:30:50] pid = 16080, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:30:50] pid = 16080, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:30:50] pid = 16080, [Wireless Netcard] DriverDesc：Qualcomm Atheros AR956x Wireless Network Adapter, DriverVersion：3.0.2.201
+[2018-01-30 19:30:50] pid = 16080, [Keystep] CheckWirelessNetcard end...
+[2018-01-30 19:30:50] pid = 16080, [Keystep] GetPublicAndPrivateNetCard begin...
+[2018-01-30 19:30:51] pid = 11672, [KeyStep] EnumICSInfo ok...
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet]netname=蓝牙网络连接 status=7 type=3
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet]GUID={78652C46-72B9-4D5F-BBAD-7DCC2DFB29C9}  DevName=Bluetooth Device (Personal Area Network)
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet]netname=WLAN status=7 type=3
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet]GUID={76437376-3CC5-477B-A28D-5625EC5C7C79}  DevName=Qualcomm Atheros AR956x Wireless Network Adapter
+[2018-01-30 19:30:51] pid = 11672, [Init_RaLink]LoadLibrary:RaAPAPI.dll
+type=3
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet]GUID={80550D00-1128-45AA-8C77-918D90C5611A}  DevName=Realtek PCIe GBE Family Controller
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet]netname=宽带连接 status=2 type=6
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet]GUID={7DC1DAEA-17FB-44E9-B9D6-8D88C8751C35}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet]netname=NDR status=0 type=6
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet]GUID={6AFBA041-BCC6-4DF8-8271-37EB8BDA699E}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:30:51] pid = 16080, [GetPublicNet] g_PublicNet=宽带连接 @1
+[2018-01-30 19:30:51] pid = 16080, [Start_Step2_GetPublicAndPrivateNetCard] GetPublicNet ok...
+[2018-01-30 19:30:51] pid = 16080, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist begin...
+[2018-01-30 19:30:51] pid = 16080, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist end...
+[2018-01-30 19:30:51] pid = 11672, [keystep] try to Repair Realtek ...
+[2018-01-30 19:30:51] pid = 11672, Repair_RealTek ---Start(
+[2018-01-30 19:30:51] pid = 11672, isRealTekNetworkCard Start(
+[2018-01-30 19:30:51] pid = 11672, GetNetworkCardHardWareID Start(
+[2018-01-30 19:30:51] pid = 11672, GetNetworkCardHardWareID End)
+[2018-01-30 19:30:51] pid = 11672, Repair_RealTek ---End)
+[2018-01-30 19:30:51] pid = 11672, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:30:51] pid = 11672, [keystep] try to Repair Realtek ...
+[2018-01-30 19:30:51] pid = 11672, Repair_RaLink ---Start(
+[2018-01-30 19:30:51] pid = 11672, isRaLinkNetworkCard Start(
+[2018-01-30 19:30:51] pid = 11672, Repair_RaLink ---End)
+[2018-01-30 19:30:51] pid = 11672, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:30:51] pid = 16080, [NOTIFY]HNWK-1 network_state_change[wlan_hosted_network_unavailable]->[wlan_hosted_network_unavailable] reason = 26
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:30:51] pid = 16080, [NOTIFY]HNWK-1 network_state_change[wlan_hosted_network_unavailable]->[wlan_hosted_network_unavailable] reason = 26
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:30:51] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:30:56] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:30:56] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:30:56] pid = 16080, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:30:56] pid = 16080, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:30:56] pid = 16080, [Repair_0x139F] begin nTimes=0
+[2018-01-30 19:30:57] pid = 16080, [Repair_0x139F] Check_And_Remove_VirtualWiFi nTimes=0
+[2018-01-30 19:30:57] pid = 16080, [Repair_0x139F] HostedNetworkSetProperty nTimes=0
+[2018-01-30 19:30:57] pid = 16080, [Repair_0x139F] WaitFor_Thread_WlanHostedNetworkStopUsing nTimes=0
+[2018-01-30 19:30:57] pid = 16080, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:30:57] pid = 16080, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:30:59] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:31:00] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:31:05] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:31:05] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:31:05] pid = 16080, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:31:05] pid = 16080, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:31:05] pid = 16080, [Repair_0x139F] begin nTimes=1
+[2018-01-30 19:31:05] pid = 11672, [EnableDisableDevice] Disconnect begin, DeviceName = qualcomm atheros ar956x wireless network adapter
+[2018-01-30 19:31:20] pid = 24676, [CheckCmdLine] cmd = -taskserver WifiTask 16080
+[2018-01-30 19:31:20] pid = 24676, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:31:20] pid = 24676, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:31:35] pid = 27468, [CheckCmdLine] cmd = -taskserver WifiTask 16080
+[2018-01-30 19:31:35] pid = 16080, [Repair_0x139F] reset_wireless_net_card nTimes=1
+[2018-01-30 19:31:35] pid = 27468, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:31:35] pid = 27468, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:31:35] pid = 16080, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:31:35] pid = 16080, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:31:37] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:31:43] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:31:43] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:31:43] pid = 16080, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:31:43] pid = 16080, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:31:43] pid = 16080, [Repair_0x139F] begin nTimes=2
+[2018-01-30 19:31:43] pid = 16080, [Repair_0x139F] HostedNetworkSetProperty nTimes=2
+[2018-01-30 19:31:43] pid = 16080, [Repair_0x139F] ResumeWifinat nTimes=2 nRet=0
+[2018-01-30 19:31:43] pid = 27468, [EnableDisableDevice] Disconnect begin, DeviceName = qualcomm atheros ar956x wireless network adapter
+[2018-01-30 19:31:48] pid = 16080, [CTaskWifiCore] 开启WiFi可能超时了！
+[2018-01-30 19:31:58] pid = 9260, [CheckCmdLine] cmd = -taskserver WifiTask 16080
+[2018-01-30 19:31:58] pid = 9260, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:31:58] pid = 9260, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:32:14] pid = 28832, [CheckCmdLine] cmd = -taskserver WifiTask 16080
+[2018-01-30 19:32:14] pid = 16080, [Repair_0x139F] reset_wireless_net_card nTimes=2
+[2018-01-30 19:32:14] pid = 16080, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:32:14] pid = 16080, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:32:16] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:32:21] pid = 16080, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:32:21] pid = 16080, [WifiStart] 承载网络开启失败.
+[2018-01-30 19:32:21] pid = 16080, [ICSStart] WifiStart error
+[2018-01-30 19:32:21] pid = 16080, [Keystep] GetPublicAndPrivateNetCard end...
+[2018-01-30 19:32:21] pid = 16080, [Keystep] GetPublicAndPrivateNetCard begin...
+[2018-01-30 19:32:21] pid = 16080, [wificore_error] 网卡驱动状态异常 建议重新安装网卡驱动
+[2018-01-30 19:32:21] pid = 28832, [KeyStep] EnumICSInfo ok...
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]netname=蓝牙网络连接 status=7 type=3
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]GUID={78652C46-72B9-4D5F-BBAD-7DCC2DFB29C9}  DevName=Bluetooth Device (Personal Area Network)
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]netname=WLAN status=7 type=3
+[2018-01-30 19:32:21] pid = 28832, [Init_RaLink]LoadLibrary:RaAPAPI.dll
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]GUID={76437376-3CC5-477B-A28D-5625EC5C7C79}  DevName=Qualcomm Atheros AR956x Wireless Network Adapter
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]netname=以太网 status=2 type=3
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]GUID={80550D00-1128-45AA-8C77-918D90C5611A}  DevName=Realtek PCIe GBE Family Controller
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]netname=宽带连接 status=2 type=6
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]GUID={7DC1DAEA-17FB-44E9-B9D6-8D88C8751C35}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]netname=NDR status=0 type=6
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet]GUID={6AFBA041-BCC6-4DF8-8271-37EB8BDA699E}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:32:21] pid = 16080, [GetPublicNet] g_PublicNet=宽带连接 @1
+[2018-01-30 19:32:21] pid = 16080, [Start_Step2_GetPublicAndPrivateNetCard] GetPublicNet ok...
+[2018-01-30 19:32:21] pid = 16080, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist begin...
+[2018-01-30 19:32:21] pid = 16080, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist end...
+[2018-01-30 19:32:21] pid = 28832, [keystep] try to Repair Realtek ...
+[2018-01-30 19:32:21] pid = 28832, Repair_RealTek ---Start(
+[2018-01-30 19:32:21] pid = 28832, isRealTekNetworkCard Start(
+[2018-01-30 19:32:21] pid = 28832, GetNetworkCardHardWareID Start(
+[2018-01-30 19:32:21] pid = 28832, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:32:21] pid = 28832, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:32:21] pid = 28832, GetNetworkCardHardWareID End)
+[2018-01-30 19:32:21] pid = 28832, Repair_RealTek ---End)
+[2018-01-30 19:32:21] pid = 28832, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:32:21] pid = 28832, [keystep] try to Repair Realtek ...
+[2018-01-30 19:32:21] pid = 28832, Repair_RaLink ---Start(
+[2018-01-30 19:32:21] pid = 28832, isRaLinkNetworkCard Start(
+[2018-01-30 19:32:21] pid = 28832, Repair_RaLink ---End)
+[2018-01-30 19:32:21] pid = 28832, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:32:21] pid = 16080, [NOTIFY]HNWK-1 network_state_change[wlan_hosted_network_unavailable]->[wlan_hosted_network_unavailable] reason = 26
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:32:21] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:32:26] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:32:26] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:32:26] pid = 16080, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:32:26] pid = 16080, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:32:26] pid = 16080, [Repair_0x139F] begin nTimes=0
+[2018-01-30 19:32:27] pid = 16080, [Repair_0x139F] Check_And_Remove_VirtualWiFi nTimes=0
+[2018-01-30 19:32:28] pid = 16080, [Repair_0x139F] HostedNetworkSetProperty nTimes=0
+[2018-01-30 19:32:28] pid = 16080, [Repair_0x139F] WaitFor_Thread_WlanHostedNetworkStopUsing nTimes=0
+[2018-01-30 19:32:28] pid = 16080, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:32:28] pid = 16080, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:32:30] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:32:35] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:32:35] pid = 16080, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:32:35] pid = 16080, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:32:35] pid = 16080, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:32:35] pid = 16080, [Repair_0x139F] begin nTimes=1
+[2018-01-30 19:32:35] pid = 28832, [EnableDisableDevice] Disconnect begin, DeviceName = qualcomm atheros ar956x wireless network adapter
+[2018-01-30 19:32:44] pid = 16080, [CMainDuiWnd::PreQuitMainDuiWindow] WM_CLOSE  PreQuit begin
+[2018-01-30 19:32:44] pid = 16080, [KeyStep] 点击关闭wifi...
+[2018-01-30 19:32:44] pid = 16080, [CMainDuiWnd::PreQuitMainDuiWindow] WM_CLOSE  PreQuit end
+[2018-01-30 19:32:48] pid = 27376, [CheckCmdLine] cmd =
+[2018-01-30 19:32:48] pid = 27376, [MainStartCheck] 强制结束上一个卡死的主进程
+[2018-01-30 19:32:49] pid = 7352, [CheckCmdLine] cmd =
+[2018-01-30 19:32:50] pid = 7352, [CApplication] 开始初始化BaseServer...
+
+[2018-01-30 19:32:51] pid = 7352, [CApplication] 开始初始化WifiCore...
+
+[2018-01-30 19:32:51] pid = 7352, [CApplication] 开始初始化AppServer...
+
+[2018-01-30 19:32:51] pid = 7352, [CApplication] 开始初始化UIServer...
+
+[2018-01-30 19:32:51] pid = 7352, [CApplication] 开始初始化MongooseServer...
+
+[2018-01-30 19:32:51] pid = 7352, [CApplication] 开始初始化CommonWindow...
+
+[2018-01-30 19:32:51] pid = 7352, [CApplication] 初始化完毕...
+
+[2018-01-30 19:32:51] pid = 7352, [Do91AssistPop] 91assistpopsdk Already Load
+[2018-01-30 19:32:51] pid = 7352, Name:WiFiMaster; Description:WiFi共享大师; Protocol:100; action:1; vEnabled:FFFFFFFF; Profiles:7FFFFFFF
+[2018-01-30 19:32:51] pid = 7352, [CMainDuiWnd::PreInitWindow] User:WiFi共享大师-80  password:1234567890
+[2018-01-30 19:32:52] pid = 7352, [KeyStep] 显示主界面...
+[2018-01-30 19:32:56] pid = 7352, [KeyStep] 点击开启wifi...
+[2018-01-30 19:32:56] pid = 7352, [KeyStep] Wifi UI User: 
+00000000  57 69 46 69 E5 85 B1 E4 BA AB E5 A4 A7 E5 B8 88 WiFi共享大师-80
+00000010  2D 38 30                                        
+
+[2018-01-30 19:32:56] pid = 7352, [KeyStep] Wifi UI Password: 
+00000000  31 32 33 34 35 36 37 38 39 30                   1234567890
+
+[2018-01-30 19:32:56] pid = 7352, [KeyStep] Wifi UI User: 
+00000000  57 69 46 69 E5 85 B1 E4 BA AB E5 A4 A7 E5 B8 88 WiFi共享大师-80
+00000010  2D 38 30                                        
+
+[2018-01-30 19:32:56] pid = 7352, [KeyStep] Wifi UI Password: 
+00000000  31 32 33 34 35 36 37 38 39 30                   1234567890
+
+[2018-01-30 19:32:56] pid = 27260, [CheckCmdLine] cmd = -taskserver WifiTask 7352
+[2018-01-30 19:32:56] pid = 7352,  [ICSStart]==========================================2.4.1.6========
+[2018-01-30 19:32:56] pid = 7352, [Keystep] WifiStartCheck begin...
+[2018-01-30 19:32:56] pid = 7352, [WifiStartCheck] begin
+[2018-01-30 19:32:56] pid = 7352, [WifiStartCheck] osver = Microsoft Windows 10  (build 9200), 64-bit
+[2018-01-30 19:32:56] pid = 7352, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:32:56] pid = 7352, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:32:56] pid = 7352, [CSrvInfo] start service BITS begin..
+[2018-01-30 19:32:56] pid = 7352, [CSrvInfo] start service end..
+[2018-01-30 19:32:56] pid = 7352, [Init_RaLink]LoadLibrary:RaAPAPI.dll
+[2018-01-30 19:32:56] pid = 27260, [CWlanAdapter] CheckWirelessNetcard begin
+[2018-01-30 19:32:56] pid = 27260, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:32:56] pid = 27260, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:32:56] pid = 27260, [CWlanAdapter] WlanEnumInterfaces begin
+[2018-01-30 19:32:56] pid = 27260, [CWlanAdapter] WlanEnumInterfaces end
+[2018-01-30 19:32:56] pid = 27260, [CWlanAdapter] NetCardNum=1
+[2018-01-30 19:32:56] pid = 27260, [CWlanAdapter] WlanQueryInterface begin
+[2018-01-30 19:32:56] pid = 27260, [CWlanAdapter] WlanQueryInterface end
+[2018-01-30 19:32:56] pid = 27260, [CWlanAdapter] isSupportHostedWlan NetCard=Qualcomm Atheros AR956x Wireless Network Adapter
+[2018-01-30 19:32:56] pid = 27260, [CWlanAdapter] CheckWirelessNetcard end
+[2018-01-30 19:32:57] pid = 7352, [KeyStep] (StartCheck)67端口没有被占用
+[2018-01-30 19:32:57] pid = 27260, DisableAllWirelessNetcardSleep Start
+[2018-01-30 19:32:57] pid = 27260, DisableAllWirelessNetcardSleep End)
+[2018-01-30 19:32:57] pid = 7352, [WifiStartCheck] end
+[2018-01-30 19:32:57] pid = 7352, [Keystep] WifiStartCheck end...
+[2018-01-30 19:32:57] pid = 7352, [Keystep] Start_Step1_0_Pre_CheckBlackProcess begin...
+[2018-01-30 19:32:57] pid = 7352, [Keystep] Start_Step1_0_Pre_CheckBlackProcess end...
+[2018-01-30 19:32:57] pid = 7352, [Keystep] CheckWirelessNetcard begin...
+[2018-01-30 19:32:57] pid = 7352, [Keystep] Get AutoConfig = 1, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:32:57] pid = 7352, [Keystep] Get background scan = 1, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:32:57] pid = 7352, [Keystep] Get operation mode = 0x00000004, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:32:57] pid = 7352, [Keystep] WlanGetAvailableNetworkList ret = 0x00000000, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:32:57] pid = 7352, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:32:57] pid = 7352, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:32:57] pid = 7352, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:32:57] pid = 7352, [Keystep] WlanGetAvailableNetworkList ret = 0x00000000, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:32:57] pid = 7352, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:32:57] pid = 7352, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:32:57] pid = 7352, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:32:57] pid = 7352, [Keystep] WlanGetAvailableNetworkList ret = 0x00000000, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:32:57] pid = 7352, [Keystep] Repaire_wifi_error begin
+[2018-01-30 19:32:58] pid = 7352, [Keystep] Repaire_wifi_error end
+[2018-01-30 19:32:58] pid = 7352, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:32:58] pid = 7352, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:32:58] pid = 7352, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:32:58] pid = 7352, [Wireless Netcard] DriverDesc：Qualcomm Atheros AR956x Wireless Network Adapter, DriverVersion：3.0.2.201
+[2018-01-30 19:32:58] pid = 7352, [Keystep] CheckWirelessNetcard end...
+[2018-01-30 19:32:58] pid = 7352, [Keystep] GetPublicAndPrivateNetCard begin...
+[2018-01-30 19:32:58] pid = 27260, [KeyStep] EnumICSInfo ok...
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]netname=蓝牙网络连接 status=7 type=3
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]GUID={78652C46-72B9-4D5F-BBAD-7DCC2DFB29C9}  DevName=Bluetooth Device (Personal Area Network)
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]netname=WLAN status=7 type=3
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]GUID={76437376-3CC5-477B-A28D-5625EC5C7C79}  DevName=Qualcomm Atheros AR956x Wireless Network Adapter
+[2018-01-30 19:32:58] pid = 27260, [Init_RaLink]LoadLibrary:RaAPAPI.dll
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]netname=以太网 status=2 type=3
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]GUID={80550D00-1128-45AA-8C77-918D90C5611A}  DevName=Realtek PCIe GBE Family Controller
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]netname=宽带连接 status=2 type=6
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]GUID={7DC1DAEA-17FB-44E9-B9D6-8D88C8751C35}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]netname=NDR status=0 type=6
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet]GUID={6AFBA041-BCC6-4DF8-8271-37EB8BDA699E}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:32:58] pid = 7352, [GetPublicNet] g_PublicNet=宽带连接 @1
+[2018-01-30 19:32:58] pid = 7352, [Start_Step2_GetPublicAndPrivateNetCard] GetPublicNet ok...
+[2018-01-30 19:32:58] pid = 7352, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist begin...
+[2018-01-30 19:32:58] pid = 7352, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist end...
+[2018-01-30 19:32:58] pid = 27260, [keystep] try to Repair Realtek ...
+[2018-01-30 19:32:58] pid = 27260, Repair_RealTek ---Start(
+[2018-01-30 19:32:58] pid = 27260, isRealTekNetworkCard Start(
+[2018-01-30 19:32:58] pid = 27260, GetNetworkCardHardWareID Start(
+[2018-01-30 19:32:58] pid = 27260, GetNetworkCardHardWareID End)
+[2018-01-30 19:32:58] pid = 27260, Repair_RealTek ---End)
+[2018-01-30 19:32:58] pid = 27260, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:32:58] pid = 27260, [keystep] try to Repair Realtek ...
+[2018-01-30 19:32:58] pid = 27260, Repair_RaLink ---Start(
+[2018-01-30 19:32:58] pid = 27260, isRaLinkNetworkCard Start(
+[2018-01-30 19:32:58] pid = 27260, Repair_RaLink ---End)
+[2018-01-30 19:32:58] pid = 27260, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:32:58] pid = 7352, [NOTIFY]HNWK-1 network_state_change[wlan_hosted_network_unavailable]->[wlan_hosted_network_unavailable] reason = 26
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:32:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:33:03] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:33:03] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:33:03] pid = 7352, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:33:03] pid = 7352, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:33:03] pid = 7352, [Repair_0x139F] begin nTimes=0
+[2018-01-30 19:33:05] pid = 7352, [Repair_0x139F] Check_And_Remove_VirtualWiFi nTimes=0
+[2018-01-30 19:33:05] pid = 7352, [Repair_0x139F] HostedNetworkSetProperty nTimes=0
+[2018-01-30 19:33:05] pid = 7352, [Repair_0x139F] WaitFor_Thread_WlanHostedNetworkStopUsing nTimes=0
+[2018-01-30 19:33:05] pid = 7352, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:33:05] pid = 7352, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:33:07] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:33:12] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:33:12] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:33:12] pid = 7352, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:33:12] pid = 7352, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:33:12] pid = 7352, [Repair_0x139F] begin nTimes=1
+[2018-01-30 19:33:12] pid = 27260, [EnableDisableDevice] Disconnect begin, DeviceName = qualcomm atheros ar956x wireless network adapter
+[2018-01-30 19:33:27] pid = 26632, [CheckCmdLine] cmd = -taskserver WifiTask 7352
+[2018-01-30 19:33:27] pid = 26632, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:33:27] pid = 26632, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:33:43] pid = 32652, [CheckCmdLine] cmd = -taskserver WifiTask 7352
+[2018-01-30 19:33:43] pid = 7352, [Repair_0x139F] reset_wireless_net_card nTimes=1
+[2018-01-30 19:33:43] pid = 32652, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:33:43] pid = 32652, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:33:43] pid = 7352, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:33:43] pid = 7352, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:33:45] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:33:50] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:33:50] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:33:50] pid = 7352, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:33:50] pid = 7352, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:33:50] pid = 7352, [Repair_0x139F] begin nTimes=2
+[2018-01-30 19:33:50] pid = 7352, [Repair_0x139F] HostedNetworkSetProperty nTimes=2
+[2018-01-30 19:33:50] pid = 7352, [Repair_0x139F] ResumeWifinat nTimes=2 nRet=0
+[2018-01-30 19:33:50] pid = 32652, [EnableDisableDevice] Disconnect begin, DeviceName = qualcomm atheros ar956x wireless network adapter
+[2018-01-30 19:33:56] pid = 7352, [CTaskWifiCore] 开启WiFi可能超时了！
+[2018-01-30 19:34:05] pid = 27184, [CheckCmdLine] cmd = -taskserver WifiTask 7352
+[2018-01-30 19:34:05] pid = 27184, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:34:05] pid = 27184, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:34:21] pid = 28720, [CheckCmdLine] cmd = -taskserver WifiTask 7352
+[2018-01-30 19:34:21] pid = 7352, [Repair_0x139F] reset_wireless_net_card nTimes=2
+[2018-01-30 19:34:21] pid = 7352, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:34:21] pid = 7352, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:34:23] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:34:28] pid = 7352, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:34:28] pid = 7352, [WifiStart] 承载网络开启失败.
+[2018-01-30 19:34:28] pid = 7352, [ICSStart] WifiStart error
+[2018-01-30 19:34:28] pid = 7352, [Keystep] GetPublicAndPrivateNetCard end...
+[2018-01-30 19:34:28] pid = 7352, [wificore_error] 网卡驱动状态异常 建议重新安装网卡驱动
+[2018-01-30 19:34:28] pid = 7352, [Keystep] GetPublicAndPrivateNetCard begin...
+[2018-01-30 19:34:28] pid = 28720, [KeyStep] EnumICSInfo ok...
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]netname=蓝牙网络连接 status=7 type=3
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]GUID={78652C46-72B9-4D5F-BBAD-7DCC2DFB29C9}  DevName=Bluetooth Device (Personal Area Network)
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]netname=WLAN status=7 type=3
+[2018-01-30 19:34:28] pid = 28720, [Init_RaLink]LoadLibrary:RaAPAPI.dll
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]GUID={76437376-3CC5-477B-A28D-5625EC5C7C79}  DevName=Qualcomm Atheros AR956x Wireless Network Adapter
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]netname=以太网 status=2 type=3
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]GUID={80550D00-1128-45AA-8C77-918D90C5611A}  DevName=Realtek PCIe GBE Family Controller
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]netname=宽带连接 status=2 type=6
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]GUID={7DC1DAEA-17FB-44E9-B9D6-8D88C8751C35}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]netname=NDR status=0 type=6
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet]GUID={6AFBA041-BCC6-4DF8-8271-37EB8BDA699E}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:34:28] pid = 7352, [GetPublicNet] g_PublicNet=宽带连接 @1
+[2018-01-30 19:34:28] pid = 7352, [Start_Step2_GetPublicAndPrivateNetCard] GetPublicNet ok...
+[2018-01-30 19:34:28] pid = 7352, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist begin...
+[2018-01-30 19:34:28] pid = 7352, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist end...
+[2018-01-30 19:34:28] pid = 28720, [keystep] try to Repair Realtek ...
+[2018-01-30 19:34:28] pid = 28720, Repair_RealTek ---Start(
+[2018-01-30 19:34:28] pid = 28720, isRealTekNetworkCard Start(
+[2018-01-30 19:34:28] pid = 28720, GetNetworkCardHardWareID Start(
+[2018-01-30 19:34:28] pid = 28720, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:34:28] pid = 28720, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:34:28] pid = 28720, GetNetworkCardHardWareID End)
+[2018-01-30 19:34:28] pid = 28720, Repair_RealTek ---End)
+[2018-01-30 19:34:28] pid = 28720, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:34:28] pid = 28720, [keystep] try to Repair Realtek ...
+[2018-01-30 19:34:28] pid = 28720, Repair_RaLink ---Start(
+[2018-01-30 19:34:28] pid = 28720, isRaLinkNetworkCard Start(
+[2018-01-30 19:34:28] pid = 28720, Repair_RaLink ---End)
+[2018-01-30 19:34:28] pid = 28720, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:34:28] pid = 7352, [NOTIFY]HNWK-1 network_state_change[wlan_hosted_network_unavailable]->[wlan_hosted_network_unavailable] reason = 26
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:34:28] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:34:33] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:34:33] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:34:33] pid = 7352, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:34:33] pid = 7352, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:34:33] pid = 7352, [Repair_0x139F] begin nTimes=0
+[2018-01-30 19:34:34] pid = 7352, [Repair_0x139F] Check_And_Remove_VirtualWiFi nTimes=0
+[2018-01-30 19:34:35] pid = 7352, [Repair_0x139F] HostedNetworkSetProperty nTimes=0
+[2018-01-30 19:34:35] pid = 7352, [Repair_0x139F] WaitFor_Thread_WlanHostedNetworkStopUsing nTimes=0
+[2018-01-30 19:34:35] pid = 7352, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:34:35] pid = 7352, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:34:37] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:34:42] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:34:42] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:34:42] pid = 7352, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:34:42] pid = 7352, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:34:42] pid = 7352, [Repair_0x139F] begin nTimes=1
+[2018-01-30 19:34:42] pid = 28720, [EnableDisableDevice] Disconnect begin, DeviceName = qualcomm atheros ar956x wireless network adapter
+[2018-01-30 19:34:58] pid = 7040, [CheckCmdLine] cmd = -taskserver WifiTask 7352
+[2018-01-30 19:34:58] pid = 7040, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:34:58] pid = 7040, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:35:13] pid = 27700, [CheckCmdLine] cmd = -taskserver WifiTask 7352
+[2018-01-30 19:35:13] pid = 7352, [Repair_0x139F] reset_wireless_net_card nTimes=1
+[2018-01-30 19:35:13] pid = 27700, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:35:13] pid = 27700, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:35:13] pid = 7352, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:35:13] pid = 7352, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:35:15] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:35:20] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:35:20] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:35:20] pid = 7352, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:35:20] pid = 7352, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:35:20] pid = 7352, [Repair_0x139F] begin nTimes=2
+[2018-01-30 19:35:20] pid = 7352, [Repair_0x139F] HostedNetworkSetProperty nTimes=2
+[2018-01-30 19:35:20] pid = 7352, [Repair_0x139F] ResumeWifinat nTimes=2 nRet=0
+[2018-01-30 19:35:20] pid = 27700, [EnableDisableDevice] Disconnect begin, DeviceName = qualcomm atheros ar956x wireless network adapter
+[2018-01-30 19:35:36] pid = 36296, [CheckCmdLine] cmd = -taskserver WifiTask 7352
+[2018-01-30 19:35:36] pid = 36296, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:35:36] pid = 36296, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:35:51] pid = 31816, [CheckCmdLine] cmd = -taskserver WifiTask 7352
+[2018-01-30 19:35:51] pid = 7352, [Repair_0x139F] reset_wireless_net_card nTimes=2
+[2018-01-30 19:35:51] pid = 7352, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:35:51] pid = 7352, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:35:53] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:35:58] pid = 7352, [CMainDuiWnd::PreQuitMainDuiWindow] WM_CLOSE  PreQuit begin
+[2018-01-30 19:35:58] pid = 7352, [KeyStep] 点击关闭wifi...
+[2018-01-30 19:35:58] pid = 7352, [CMainDuiWnd::PreQuitMainDuiWindow] WM_CLOSE  PreQuit end
+[2018-01-30 19:35:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:35:58] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:35:58] pid = 7352, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:35:58] pid = 7352, [WifiStart] 承载网络开启失败.
+[2018-01-30 19:35:58] pid = 7352, [ICSStart] WifiStart error
+[2018-01-30 19:35:58] pid = 7352, [Keystep] GetPublicAndPrivateNetCard end...
+[2018-01-30 19:35:58] pid = 7352, [KeyStep] (ICSStop)67端口没有被占用
+[2018-01-30 19:35:58] pid = 7352, [ICSStop] begin
+[2018-01-30 19:35:58] pid = 7352, [ICSStop] OS = Microsoft Windows 10  (build 9200), 64-bit
+[2018-01-30 19:35:58] pid = 7352, [IcsStop] Restore IPAddress
+[2018-01-30 19:35:58] pid = 7352, [ICSStop] end
+[2018-01-30 19:35:58] pid = 7352, [流量统计 wificlose] In: 0 Out: 0(流量正常)
+[2018-01-30 19:35:58] pid = 7352, [Keystep] GetPublicAndPrivateNetCard begin...
+[2018-01-30 19:35:58] pid = 31816, [KeyStep] EnumICSInfo ok...
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]netname=蓝牙网络连接 status=7 type=3
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]GUID={78652C46-72B9-4D5F-BBAD-7DCC2DFB29C9}  DevName=Bluetooth Device (Personal Area Network)
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]netname=WLAN status=7 type=3
+[2018-01-30 19:35:58] pid = 31816, [Init_RaLink]LoadLibrary:RaAPAPI.dll
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]GUID={76437376-3CC5-477B-A28D-5625EC5C7C79}  DevName=Qualcomm Atheros AR956x Wireless Network Adapter
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]netname=以太网 status=2 type=3
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]GUID={80550D00-1128-45AA-8C77-918D90C5611A}  DevName=Realtek PCIe GBE Family Controller
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]netname=宽带连接 status=2 type=6
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]GUID={7DC1DAEA-17FB-44E9-B9D6-8D88C8751C35}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]netname=NDR status=0 type=6
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet]GUID={6AFBA041-BCC6-4DF8-8271-37EB8BDA699E}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:35:58] pid = 7352, [GetPublicNet] g_PublicNet=宽带连接 @1
+[2018-01-30 19:35:58] pid = 7352, [Start_Step2_GetPublicAndPrivateNetCard] GetPublicNet ok...
+[2018-01-30 19:35:58] pid = 7352, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist begin...
+[2018-01-30 19:35:58] pid = 7352, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist end...
+[2018-01-30 19:35:58] pid = 31816, [keystep] try to Repair Realtek ...
+[2018-01-30 19:35:58] pid = 31816, Repair_RealTek ---Start(
+[2018-01-30 19:35:58] pid = 31816, isRealTekNetworkCard Start(
+[2018-01-30 19:35:58] pid = 31816, GetNetworkCardHardWareID Start(
+[2018-01-30 19:35:58] pid = 31816, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:35:58] pid = 31816, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:35:58] pid = 31816, GetNetworkCardHardWareID End)
+[2018-01-30 19:35:58] pid = 31816, Repair_RealTek ---End)
+[2018-01-30 19:35:58] pid = 31816, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:35:58] pid = 31816, [keystep] try to Repair Realtek ...
+[2018-01-30 19:35:58] pid = 31816, Repair_RaLink ---Start(
+[2018-01-30 19:35:58] pid = 31816, isRaLinkNetworkCard Start(
+[2018-01-30 19:35:59] pid = 31816, Repair_RaLink ---End)
+[2018-01-30 19:35:59] pid = 31816, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:35:59] pid = 7352, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:35:59] pid = 7352, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:35:59] pid = 7352, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:35:59] pid = 7352, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:36:03] pid = 7352, [CApplication] 退出完毕...
+
+[2018-01-30 19:39:03] pid = 31036, [CheckCmdLine] cmd =
+[2018-01-30 19:39:04] pid = 31036, [Keystep] 确定冲突的进程：360ap.exe ok
+[2018-01-30 19:39:04] pid = 31036, [CApplication] 开始初始化BaseServer...
+
+[2018-01-30 19:39:04] pid = 31036, [CApplication] 开始初始化WifiCore...
+
+[2018-01-30 19:39:04] pid = 31036, [CApplication] 开始初始化AppServer...
+
+[2018-01-30 19:39:05] pid = 31036, [CApplication] 开始初始化UIServer...
+
+[2018-01-30 19:39:05] pid = 31036, [CApplication] 开始初始化MongooseServer...
+
+[2018-01-30 19:39:05] pid = 31036, [CApplication] 开始初始化CommonWindow...
+
+[2018-01-30 19:39:05] pid = 31036, [CApplication] 初始化完毕...
+
+[2018-01-30 19:39:05] pid = 31036, [Do91AssistPop] 91assistpopsdk Already Load
+[2018-01-30 19:39:05] pid = 31036, Name:WiFiMaster; Description:WiFi共享大师; Protocol:100; action:1; vEnabled:FFFFFFFF; Profiles:7FFFFFFF
+[2018-01-30 19:39:05] pid = 31036, [CMainDuiWnd::PreInitWindow] User:WiFi共享大师-80  password:1234567890
+[2018-01-30 19:39:06] pid = 31036, [KeyStep] 显示主界面...
+[2018-01-30 19:39:16] pid = 31036, [KeyStep] 点击开启wifi...
+[2018-01-30 19:39:16] pid = 31036, [KeyStep] Wifi UI User: 
+00000000  57 69 46 69 E5 85 B1 E4 BA AB E5 A4 A7 E5 B8 88 WiFi共享大师-80
+00000010  2D 38 30                                        
+
+[2018-01-30 19:39:16] pid = 31036, [KeyStep] Wifi UI Password: 
+00000000  31 32 33 34 35 36 37 38 39 30                   1234567890
+
+[2018-01-30 19:39:16] pid = 31036, [KeyStep] Wifi UI User: 
+00000000  57 69 46 69 E5 85 B1 E4 BA AB E5 A4 A7 E5 B8 88 WiFi共享大师-80
+00000010  2D 38 30                                        
+
+[2018-01-30 19:39:16] pid = 31036, [KeyStep] Wifi UI Password: 
+00000000  31 32 33 34 35 36 37 38 39 30                   1234567890
+
+[2018-01-30 19:39:16] pid = 33868, [CheckCmdLine] cmd = -taskserver WifiTask 31036
+[2018-01-30 19:39:16] pid = 31036,  [ICSStart]==========================================2.4.1.6========
+[2018-01-30 19:39:16] pid = 31036, [Keystep] WifiStartCheck begin...
+[2018-01-30 19:39:16] pid = 31036, [WifiStartCheck] begin
+[2018-01-30 19:39:16] pid = 31036, [WifiStartCheck] osver = Microsoft Windows 10  (build 9200), 64-bit
+[2018-01-30 19:39:16] pid = 31036, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:39:16] pid = 31036, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:39:16] pid = 31036, [CSrvInfo] start service BITS begin..
+[2018-01-30 19:39:16] pid = 31036, [CSrvInfo] start service end..
+[2018-01-30 19:39:16] pid = 31036, [CSrvInfo] start service SharedAccess begin..
+[2018-01-30 19:39:16] pid = 31036, [CSrvInfo] start service end..
+[2018-01-30 19:39:16] pid = 31036, [Init_RaLink]LoadLibrary:RaAPAPI.dll
+[2018-01-30 19:39:17] pid = 33868, [CWlanAdapter] CheckWirelessNetcard begin
+[2018-01-30 19:39:17] pid = 33868, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:39:17] pid = 33868, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-01-30 19:39:17] pid = 33868, [CWlanAdapter] WlanEnumInterfaces begin
+[2018-01-30 19:39:17] pid = 33868, [CWlanAdapter] WlanEnumInterfaces end
+[2018-01-30 19:39:17] pid = 33868, [CWlanAdapter] NetCardNum=1
+[2018-01-30 19:39:17] pid = 33868, [CWlanAdapter] WlanQueryInterface begin
+[2018-01-30 19:39:17] pid = 33868, [CWlanAdapter] WlanQueryInterface end
+[2018-01-30 19:39:17] pid = 33868, [CWlanAdapter] isSupportHostedWlan NetCard=Qualcomm Atheros AR956x Wireless Network Adapter
+[2018-01-30 19:39:17] pid = 33868, [CWlanAdapter] CheckWirelessNetcard end
+[2018-01-30 19:39:17] pid = 31036, [KeyStep] (StartCheck)67端口没有被占用
+[2018-01-30 19:39:17] pid = 33868, DisableAllWirelessNetcardSleep Start
+[2018-01-30 19:39:17] pid = 33868, DisableAllWirelessNetcardSleep End)
+[2018-01-30 19:39:17] pid = 31036, [WifiStartCheck] end
+[2018-01-30 19:39:17] pid = 31036, [Keystep] WifiStartCheck end...
+[2018-01-30 19:39:17] pid = 31036, [Keystep] Start_Step1_0_Pre_CheckBlackProcess begin...
+[2018-01-30 19:39:17] pid = 31036, [Keystep] Start_Step1_0_Pre_CheckBlackProcess end...
+[2018-01-30 19:39:17] pid = 31036, [Keystep] CheckWirelessNetcard begin...
+[2018-01-30 19:39:17] pid = 31036, [Keystep] Get AutoConfig = 1, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:39:17] pid = 31036, [Keystep] Get background scan = 1, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:39:17] pid = 31036, [Keystep] Get operation mode = 0x00000004, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:39:17] pid = 31036, [Keystep] WlanGetAvailableNetworkList ret = 0x00000000, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:39:17] pid = 31036, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:39:17] pid = 31036, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:39:17] pid = 31036, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:39:17] pid = 31036, [Keystep] WlanGetAvailableNetworkList ret = 0x00000000, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:39:17] pid = 31036, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:39:17] pid = 31036, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:39:17] pid = 31036, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:39:17] pid = 31036, [Keystep] WlanGetAvailableNetworkList ret = 0x00000000, guid = {76437376-3CC5-477B-A28D-5625EC5C7C79}
+[2018-01-30 19:39:17] pid = 31036, [Keystep] Repaire_wifi_error begin
+[2018-01-30 19:39:18] pid = 31036, [Keystep] Repaire_wifi_error end
+[2018-01-30 19:39:18] pid = 31036, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:39:18] pid = 31036, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:39:18] pid = 31036, [Keystep] GetRadioState: [{76437376-3CC5-477B-A28D-5625EC5C7C79}][soft:on][hard:on]
+[2018-01-30 19:39:18] pid = 31036, [Wireless Netcard] DriverDesc：Qualcomm Atheros AR956x Wireless Network Adapter, DriverVersion：3.0.2.201
+[2018-01-30 19:39:18] pid = 31036, [Keystep] CheckWirelessNetcard end...
+[2018-01-30 19:39:18] pid = 31036, [Keystep] GetPublicAndPrivateNetCard begin...
+[2018-01-30 19:39:18] pid = 33868, [KeyStep] EnumICSInfo ok...
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]netname=蓝牙网络连接 status=7 type=3
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]GUID={78652C46-72B9-4D5F-BBAD-7DCC2DFB29C9}  DevName=Bluetooth Device (Personal Area Network)
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]netname=WLAN status=7 type=3
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]GUID={76437376-3CC5-477B-A28D-5625EC5C7C79}  DevName=Qualcomm Atheros AR956x Wireless Network Adapter
+[2018-01-30 19:39:18] pid = 33868, [Init_RaLink]LoadLibrary:RaAPAPI.dll
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]netname=以太网 status=2 type=3
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]GUID={80550D00-1128-45AA-8C77-918D90C5611A}  DevName=Realtek PCIe GBE Family Controller
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]netname=宽带连接 status=2 type=6
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]GUID={7DC1DAEA-17FB-44E9-B9D6-8D88C8751C35}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]netname=NDR status=0 type=6
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet]GUID={6AFBA041-BCC6-4DF8-8271-37EB8BDA699E}  DevName=WAN Miniport (PPPOE)
+[2018-01-30 19:39:18] pid = 31036, [GetPublicNet] g_PublicNet=宽带连接 @1
+[2018-01-30 19:39:18] pid = 31036, [Start_Step2_GetPublicAndPrivateNetCard] GetPublicNet ok...
+[2018-01-30 19:39:18] pid = 31036, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist begin...
+[2018-01-30 19:39:18] pid = 31036, [Start_Step2_GetPublicAndPrivateNetCard] DisenableIcsPortWithAssist end...
+[2018-01-30 19:39:18] pid = 33868, [keystep] try to Repair Realtek ...
+[2018-01-30 19:39:18] pid = 33868, Repair_RealTek ---Start(
+[2018-01-30 19:39:18] pid = 33868, isRealTekNetworkCard Start(
+[2018-01-30 19:39:18] pid = 33868, GetNetworkCardHardWareID Start(
+[2018-01-30 19:39:18] pid = 33868, GetNetworkCardHardWareID End)
+[2018-01-30 19:39:18] pid = 33868, Repair_RealTek ---End)
+[2018-01-30 19:39:18] pid = 33868, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:39:18] pid = 33868, [keystep] try to Repair Realtek ...
+[2018-01-30 19:39:18] pid = 33868, Repair_RaLink ---Start(
+[2018-01-30 19:39:18] pid = 33868, isRaLinkNetworkCard Start(
+[2018-01-30 19:39:19] pid = 33868, Repair_RaLink ---End)
+[2018-01-30 19:39:19] pid = 33868, [keystep] try to Repair Realtek ...  End
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:39:19] pid = 31036, [NOTIFY]HNWK-1 network_state_change[wlan_hosted_network_unavailable]->[wlan_hosted_network_unavailable] reason = 26
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:39:19] pid = 31036, [NOTIFY]HNWK-1 network_state_change[wlan_hosted_network_unavailable]->[wlan_hosted_network_unavailable] reason = 26
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:39:19] pid = 31036, [NOTIFY]HNWK-1 network_state_change[wlan_hosted_network_unavailable]->[wlan_hosted_network_unavailable] reason = 26
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:39:19] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:39:24] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:39:24] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:39:24] pid = 31036, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:39:24] pid = 31036, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:39:24] pid = 31036, [Repair_0x139F] begin nTimes=0
+[2018-01-30 19:39:25] pid = 31036, [Repair_0x139F] Check_And_Remove_VirtualWiFi nTimes=0
+[2018-01-30 19:39:25] pid = 31036, [Repair_0x139F] HostedNetworkSetProperty nTimes=0
+[2018-01-30 19:39:25] pid = 31036, [Repair_0x139F] WaitFor_Thread_WlanHostedNetworkStopUsing nTimes=0
+[2018-01-30 19:39:25] pid = 31036, [Repair_0x139F] ScanForHardwareChange begin
+[2018-01-30 19:39:25] pid = 31036, [Repair_0x139F] ScanForHardwareChange end
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetwork begin ...
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanOpenHandle begin
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanOpenHandle end
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkInitSettings begin
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkInitSettings end
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkQueryStatus begin
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkQueryStatus end
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey begin
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetSecondaryKey end
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetProperty begin
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkSetProperty end
+[2018-01-30 19:39:27] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkStartUsing begin
+[2018-01-30 19:39:32] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkStartUsing error(0x00000000), wlan_hosted_network_reason_interface_unavailable
+[2018-01-30 19:39:32] pid = 31036, [WifiStart_WIN7] WlanHostedNetworkStartUsing end
+[2018-01-30 19:39:32] pid = 31036, [wificore_error] 开启无线承载网络失败(StartUsingErr)
+[2018-01-30 19:39:32] pid = 31036, [WifiStart_WIN7] dwRet=3; dwError=0x0000139F
+[2018-01-30 19:39:32] pid = 31036, [Repair_0x139F] begin nTimes=1
+[2018-01-30 19:39:32] pid = 33868, [EnableDisableDevice] Disconnect begin, DeviceName = qualcomm atheros ar956x wireless network adapter
+[2018-01-30 19:39:48] pid = 37896, [CheckCmdLine] cmd = -taskserver WifiTask 31036
+[2018-01-30 19:39:48] pid = 37896, [InitWiFiFunction_XP] 初始化WinXP Wlan函数.
+[2018-01-30 19:39:48] pid = 37896, [InitWiFiFunction_Win7] 初始化Win7 Wlan函数.
+[2018-02-27 16:12:30] pid = 28220, WiFiSetupName: WiFigxds_2.4.1.6.exe
+[2018-02-27 16:12:34] pid = 28220, OtherProblem:
+[2018-02-27 16:12:34] pid = 28220, QQ:

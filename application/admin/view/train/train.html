@@ -1,0 +1,68 @@
+﻿<!--包含头部文件-->
+{include file="public/header" /}
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;
+</span> 培训管理 <span class="c-gray en">&gt;</span> 培训列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> 
+		<span class="l">
+		<a href="javascript:;" onclick="member_add('添加培训','{:url('train/add')}','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加培训</a>
+	 </div>
+	<div class="mt-20">
+	<table class="table table-border table-bordered table-hover table-bg table-sort">
+		<thead>
+			<tr class="text-c">
+				<th width="25"><input type="checkbox" name="" value=""></th>
+				<th width="50">ID</th>
+				<th width="100">训练名称</th>
+				<th width="150">图片</th>
+				<th width="100">训练类型</th>
+				<th width="150">简介</th>
+				<th width="150">上课须知</th>
+				<th width="130">授课时间</th>
+				<th width="130">授课地址</th>
+				<th width="80">价格</th>			
+				<th width="100">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		{volist name="tlist" id="vo"}
+			<tr class="text-c">
+				<td><input type="checkbox" value="1" name=""></td>
+				<td>{$i}</td>
+				<td>{$vo.train_name}</td>
+				<td><img src="__STATIC__/trains/{$vo.train_pic}" style="width:210px"></td>
+				<td>{$vo.train_type}</td>
+				<td class="text-l">{$vo.train_intro}</td>
+				<td class="text-l">{$vo.train_attention}</td>
+				<td>{$vo.train_time}</td>
+				<td>{$vo.train_address}</td>		
+				<td>{$vo.train_price}</td>
+				<td class="td-manage">
+					
+					<a a title="编辑" href="{:url('edit',['train_id'=>$vo.train_id])}" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont"><i class="Hui-iconfont">&#xe6df;</i></a> 					
+					<a title="删除" onclick="yuejian14_del('{:url('delete',['train_id'=>$vo.train_id])}','')"   class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+			</tr>
+			{/volist}
+		</tbody>
+	</table>
+	</div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+{include file="public/footer" /}
+<script type="text/javascript">
+
+/*用户-添加*/
+function member_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*用户-查看*/
+function member_show(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+
+
+</script> 
+</body>
+</html>

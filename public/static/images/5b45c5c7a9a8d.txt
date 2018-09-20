@@ -1,0 +1,4 @@
+[ResponseResult]
+ResultCode=0
+[Application]
+version=10.0.1.9

@@ -1,0 +1,84 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+<body>
+    <h1 style="text-align: center; background: rgba(0,183,238,.5)">约健APP俱乐部管理员注册</h1>
+<div class="page-container">
+	<form class="form form-horizontal" action="{:url('register/register')}" method="post" enctype="multipart/form-data" id="form-article-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>俱乐部名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" required="required" value="" placeholder="" id="" name="club_name">
+			</div>
+		</div>
+
+			<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>俱乐部地址：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" required="required" value="" placeholder="" id="" name="club_address">
+            </div>
+		</div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>开放时间：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" required="required" value="" placeholder="" id="" name="club_time">
+            </div>
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>俱乐部电话：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" required="required" value="" placeholder="" id="" name="club_phone">
+            </div>
+        </div>        
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">俱乐部简介：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="club_intro" cols="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="$.Huitextarealength(this,200)"></textarea>
+				<p class="textarea-numberbar"></p>
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">图片上传：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+    <div class="col-md-10 col-xs-10">
+        <span class="btn-upload form-group">
+  <input class="input-text upload-url radius" required="required" type="text" name="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary radius"><i class="iconfont">&#xf0020;</i> 浏览文件</a>
+  <input type="file" required multiple name="club_pic" class="input-file">
+</span>
+      </div>
+			</div>
+
+		</div>
+<!--         <div style="width: 100%;background: #525252"></div> -->
+        <div style="background: #d5d5d5;font-size: 16px;width: 90%;margin-left: 8%;margin-top: 15px;">管理员信息：</div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>管理员用户名：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" required="required" value="" placeholder="" id="" name="club_adminname">
+            </div>
+        </div>
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>密码：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" required="required" value="" placeholder="" id="" name="club_adminpassword">
+            </div>
+        </div>
+
+                           
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				<button type="sublime" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 提交审核</button>
+
+				<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+	</form>
+</div>
+<!--包含尾部文件-->
+{include file="public/footer" /}
+</body>
+</html>
